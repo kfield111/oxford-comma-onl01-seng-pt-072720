@@ -1,6 +1,8 @@
 def oxford_comma(array)
-  if array.index == [-1]
-    array.join(" and ")
-  else   array.join (" , ")
+  for each do |item, index|
+    if index == [-1]
+      array.join(" and ")
+    else   array.join (" , ")
+    end
   end
 end
