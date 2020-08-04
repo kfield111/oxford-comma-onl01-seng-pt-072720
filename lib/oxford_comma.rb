@@ -1,3 +1,7 @@
 def oxford_comma(array)
-  array.to_set
+  if array.length > 2
+    array.join (", ")
+  else array.join (", ") + ", and " << array.last
   end
+
+end
